@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--创建数据库名称，默认在末尾添加.db扩展名 -->
+    <dbname value="notepad" />
+
+    <!--数据库版本号，用于更新数据库-->
+    <version value="1" />
+
+        <list>
+            <mapping class="com.example.notepad.DB.DBservice" />
+
+        </list>
+
+    <list>
+    </list>
+
+    <!--
+       数据库文件存储路径，建议默认
+        <storage value="external" />
+    -->
+
+</litepal>
